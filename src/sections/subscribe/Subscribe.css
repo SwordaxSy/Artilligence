@@ -1,0 +1,43 @@
+.subscribe .section-title {
+    text-align: center;
+}
+.subscribe .sub-box form {
+    background-color: var(--transparent-white);
+    width: 280px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.sub-box input {
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 6px 0;
+    display: block;
+    width: calc(100% - 16px);
+}
+.sub-box input[type="button"] {
+    width: 100%;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.sub-box input[type="button"].selected {
+    background-color: var(--main-color);
+    color: white;
+}
+.sub-box button {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    .subscribe .sub-box form {
+        width: 260px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "project_info": {
+        "project_name": "Artilligence",
+        "project_description": "A service that helps learning the science of AI",
+        "project_development_start": "9 April, 2022",
+        "project_development_end": "19 April, 2022",
+        "project_development_duration": "09:30 (hours:minutes)",
+        "project_technologies": ["HTML", "CSS", "JavaScript", "React.js"],
+        "project_developer": "Swordax Sy",
+        "project_repo": "https://github.com/SwordaxSy/Artilligence"
+    },
+    "developer_info": {
+        "developer": "Swordax",
+        "developer_at": "swordax.sy",
+        "developer_discord": "https://discord.com/users/465453058667839499/",
+        "developer_discord_id": "Swordax#5756",
+        "developer_github": "https://github.com/SwordaxSy"
+    },
+    "project_updates": {
+        "9 April, 2022": [
+            "Started project development",
+            "Designed the UI using figma",
+            "Prepared design images"
+        ],
+        "10 April, 2022": [
+            "Created project directory",
+            "Created the react app",
+            "Prepared the project folder structure",
+            "Completed the header component"
+        ],
+        "11 April, 2022": [
+            "Created home directory and inside it Home.jsx and Home.css",
+            "Built the home section and styled it",
+            "Changed the components directory name to sections",
+            "Created components directory for reusable parts",
+            "Created components/Button.jsx and created a reusable button styled component",
+            "Added a gradient effect for the navagation when scrolled",
+            "Worked on the about page"
+        ],
+        "12 April, 2022": ["Completed the about page", "Made custom scrollbar"],
+        "13 April, 2022": [
+            "Created services folder, Services.jsx, and Services.css",
+            "Worked on the services section structure"
+        ],
+        "14 April, 2022": [
+            "Completed structuring and designing and services section",
+            "Created prices folder, Prices.jsx, and Prices.css",
+            "Completed the JSX structure of the prices section",
+            "-- LATER THAT DAY --",
+            "Completed styling the prices section",
+            "Completed the nav scrolling system",
+            "Changed the name of 'support' to 'subscribe'",
+            "Created the subscribe folder, Subscribe.jsx, and Subscribe.css",
+            "Completed structuring and styling the subscribe component"
+        ],
+        "15 April, 2022": [
+            "Added hover effects to the services and offers boxes",
+            "Used the useEffect hook to manage the gender selection in the subscription form",
+            "Changed the text content of the button in the home section",
+            "Mounted a destination on the home button and the subscribe option in the nav",
+            "Fully completed the responsive design of the whole website"
+        ],
+        "19 April, 2022": [
+            "Created the footer component and completed it",
+            "Wrote the README.md file",
+            "Completed artilligence website"
+        ]
+    }
+}

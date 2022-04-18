@@ -1,0 +1,71 @@
+.prices {
+    width: 90%;
+}
+
+.prices-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Offer */
+.offer h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.offer {
+    min-width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    transition: var(--transition);
+}
+.offer:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Props */
+.offer .props {
+    margin: 40px 0;
+}
+
+.offer .prop {
+    display: flex;
+    margin: 14px 0;
+}
+.offer .prop img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Price Tags */
+.prices .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.prices .price p {
+    font-size: 36px;
+    font-weight: bold;
+}
+.prices .price small {
+    font-size: 18px;
+    transform: translateX(50%);
+}
+
+/* Media Queries */
+@media (max-width: 1040px) {
+    .prices-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
