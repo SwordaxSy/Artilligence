@@ -11,7 +11,7 @@ Email me through [swordax.sy](mailto:swordax.sy@gmail.com)<br>
 Find me on social media as @swordax.sy<br>
 ```json
 {
-  field: true,
-  field2: VideoFile
+  "field": true,
+  "field2": VideoFile
 }
 ```
